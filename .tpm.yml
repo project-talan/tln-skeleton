@@ -8,7 +8,10 @@ team:
     email: vladislav.kurmaz@gmail.com
     fte: 0.01
 timeline:
+  25.6.0:
+    deadline: 2025-06-05T22:00:00.000Z
   25.4.0:
     deadline: 2025-04-05T22:00:00.000Z
 tasks: |
-  [>:001:25.4.0] Integrate Github CICD skeleton #2h @vlad.k
+  [2:002:25.6.0] TBA @vlad.k
+  [+:001:25.4.0] Integrate Github CICD skeleton #2h @vlad.k
