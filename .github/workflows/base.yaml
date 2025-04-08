@@ -95,7 +95,7 @@ jobs:
         run: |
           df -h
           npm i
-          echo '{"detach": true}' > '.tlnrc'
+          echo '{"detach": true, "dry-run": true}' > '.tlnrc'
           echo '${{ inputs.group }}:${{ inputs.environment }}' > .context
 
           mkdir secrets
